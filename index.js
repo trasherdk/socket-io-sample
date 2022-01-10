@@ -18,6 +18,6 @@ io.on('connection', (socket) => {
   });
 });
 
-http.listen(3000, function(){
-  console.log('listening on *:3000');
+http.listen(3000, 'localhost', function(){
+  console.log('listening on localhost:3000');
 });
